@@ -1,13 +1,16 @@
 import React from "react";
 import { Card, CardHeader, CardContent, Typography } from "@material-ui/core";
 import { Doughnut } from "react-chartjs-2";
-const Details = () => {
+
+import useStyles from "./styles";
+const Details = ({ title }) => {
+  const classes = useStyles();
   return (
-    <Card>
-      <CardHeader title="Income">
+    <Card className={title === "Income" ? classes.income : classes.expense}>
+      <CardHeader title={title} />
+      <CardContent>
         <Typography variant="h6">$50</Typography>
-        <Doughnut data="DATA" />
-      </CardHeader>
+      </CardContent>
     </Card>
   );
 };
