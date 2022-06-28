@@ -12,6 +12,7 @@ import { ExpenseTrackerContext } from "../../context/context";
 import useStyles from "./styles";
 import Form from "./Form/Form";
 import List from "./List/List";
+import InfoCard from "../InfoCard";
 const Main = () => {
   const classes = useStyles();
   const { balance } = useContext(ExpenseTrackerContext);
@@ -26,7 +27,7 @@ const Main = () => {
           variant="subtitle1"
           style={{ lineHeight: "1.5em", marginTop: "20px" }}
         >
-          Try saying: Add income for $100 in category Salary for monday
+          <InfoCard />
         </Typography>
         <Divider />
         <Form />
