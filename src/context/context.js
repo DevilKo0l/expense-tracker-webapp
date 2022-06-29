@@ -1,7 +1,22 @@
 import React, { useReducer, createContext } from "react";
 
 import contextReducer from "./contextReducer";
-const initialState = JSON.parse(localStorage.getItem("transactions")) || [];
+const initialState = JSON.parse(localStorage.getItem("transactions")) || [
+  {
+    amount: 500,
+    category: "Salary",
+    type: "Income",
+    date: "2020-11-16",
+    id: "44c68123-5b86-4cc8-b915-bb9e16cebe6a",
+  },
+  {
+    amount: 123,
+    category: "Car",
+    type: "Expense",
+    date: "2020-11-16",
+    id: "0f72e66e-e144-4a72-bbc1-c3c92018635e",
+  },
+];
 
 export const ExpenseTrackerContext = createContext(initialState);
 
@@ -10,7 +25,7 @@ export const Provider = ({ children }) => {
 
   // Action Creators
   const deleteTransaction = (id) => {
-    dispatch({ type: "DETELE_TRANSACTION", payload: id });
+    dispatch({ type: "DELETE_TRANSACTION", payload: id });
   };
 
   const addTransaction = (transaction) => {
