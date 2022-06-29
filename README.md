@@ -1,7 +1,7 @@
 
 <div align="center"> 
 
-  <h3 align="center">Expense Tracker Website</h3>
+  <h3 align="center">Expense Tracker Web Application</h3>
 
   <p align="center">
     Tracking your budget in an easy way
@@ -9,7 +9,7 @@
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>   
+    <a href="https://nat-expense-tracker.netlify.app/">View Demo</a>   
     
   </p>
 </div>
@@ -23,7 +23,7 @@ The technologies I use in this project inclues:
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Speechly](https://www.speechly.com/)
+* [Speechly](https://api.speechly.com/dashboard/#/signup)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -38,7 +38,7 @@ You need to install [nodejs](https://nodejs.org/en/)
    ```sh
    git clone https://github.com/DevilKo0l/expense-tracker-webapp.git
    ```
-2. Install npm in gourmet-restaurant-web folder
+2. Install npm in expense-tracker-webapp folder
    ```
    npm install
    ```
