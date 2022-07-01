@@ -21,6 +21,7 @@ This is a responsive website for tracking your budget. I want to help you know e
 The technologies I use in this project inclues:
 * [React.js](https://reactjs.org/)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Material UI](https://mui.com/)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Speechly](https://api.speechly.com/dashboard/#/signup)
